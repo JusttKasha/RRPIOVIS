@@ -44,13 +44,6 @@ public:
         }
         cout << endl;
     }
-
-    void envcalc() {
-        for (int v = 0; v < V; ++v) {
-            int env = adj[v].size();
-            cout << "Окружение вершины " << v << ": " << env <<  endl;
-        }
-    }
 };
 
 int main() {
